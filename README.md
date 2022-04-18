@@ -25,26 +25,26 @@ Você deverá criar 2 aplicações para cadastramento de clientes, produtos e pe
 
 O cadastro do cliente deve conter as seguintes informações:
 
-* Código
-* Nome
-* CPF
-* Telefone
-* E-mail
+* Código (Número Sequencial Automático)
+* Nome (Campo Obrigatório)
+* CPF (Validar CPF e máscara)
+* Telefone (Campo Obrigatório com máscara)
+* E-mail (Validar E-mail, máscara e campo obrigatório)
 
 O cadastro de produto deve contar as seguintes informações:
 
-* Código
-* Descrição
-* Unidade
-* Valor
+* Código (Número Sequencial Automático)
+* Descrição (Campo Obrigatório)
+* Unidade (Campo Obrigatório)
+* Valor (Campo Obrigatório)
 
 Os Pedidos contém as seguintes informações:
 
-* Numero da Pedido
-* Data de emissão
+* Numero da Pedido (Número Sequencial Automático)
+* Data de emissão (Data automática)
 * Descrição (Apenas texto)
-* Lista de Produtos
-* Valor Total(Deverá ser calculado através da soma do valor de todos os produtos vinculados ao pedido)
+* Lista de Produtos (Obrigatório ao menos 1 produto)
+* Valor Total (Deverá ser calculado através da soma do valor de todos os produtos vinculados ao pedido)
 
 ### Tecnologias
 
@@ -54,20 +54,20 @@ Escolha umas das opções abaixo para implementar sua solução. A modelagem dos
 
 **Opção 1**
 
-* Aplicação JavaEE utilizando framework Quarkus
+* Aplicação JavaEE utilizando framework Quarkus(diferencial) ou Spring
 * Banco de dados PostgreSQL
 * RESTFul API ou Jersey JAX-RS
 
 **Opção 2**
 
-* Aplicação pura Java EE (não utilize Spring, Struts, EJB, etc)
+* Aplicação pura Java EE (não utilize Struts, EJB, etc)
 * RESTful API JAX-RS utilizando Servlets ou framework Jersey
 * Banco de dados SQL (MySQL, PostgreSQL, HSQLDB) com JPA
 
 ####  FRONT-END
 * Single Page Application utilizando apenas HTML5 e CSS3
 * Javascript puro / JQuery (e plugins)
-* Vue.js (será diferencial)
+* Vue.js ou Nuxt(será diferencial)
 * Bootstrap (http://getbootstrap.com/)
 
 **Recomendações gerais:**
