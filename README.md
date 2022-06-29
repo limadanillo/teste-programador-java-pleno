@@ -54,7 +54,7 @@ Escolha umas das opções abaixo para implementar sua solução. A modelagem dos
 
 **Opção 1**
 
-* Aplicação JavaEE utilizando framework Quarkus(diferencial) ou Spring
+* Aplicação JavaEE utilizando framework Quarkus(preferencial) ou Spring
 * Banco de dados PostgreSQL
 * RESTFul API ou Jersey JAX-RS
 
