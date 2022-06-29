@@ -1,4 +1,4 @@
-# Desafio de Programação Java Pleno.
+# Desafio de Programador Full Stack Java.
 
 # O que preciso fazer?
 
@@ -65,10 +65,12 @@ Escolha umas das opções abaixo para implementar sua solução. A modelagem dos
 * Banco de dados SQL (MySQL, PostgreSQL, HSQLDB) com JPA
 
 ####  FRONT-END
+*  Vue.js com Nuxt (preferencialmente)
+* React
 * Single Page Application utilizando apenas HTML5 e CSS3
 * Javascript puro / JQuery (e plugins)
-* Vue.js ou Nuxt(será diferencial)
-* Bootstrap (http://getbootstrap.com/)
+
+Utilizar Bootstrap (http://getbootstrap.com/)
 
 **Recomendações gerais:**
 
