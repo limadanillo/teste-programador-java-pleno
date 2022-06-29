@@ -1,4 +1,4 @@
-# Desafio de Programador Full Stack Java.
+# Desafio de Programador Full Stack Java
 
 # O que preciso fazer?
 
